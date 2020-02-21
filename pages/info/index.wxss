@@ -1,0 +1,57 @@
+.infolist {
+  width: 100%;
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+  background-color: #fff;
+  margin-top: 41rpx;
+}
+
+.m-info {
+  box-sizing: border-box;
+  display: block;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 34rpx;
+  color: #000;
+  margin-left: 30rpx;
+  padding-right: 30rpx;
+  border-top: 1rpx solid #e5e5e5;
+}
+
+.m-info:first-child {
+  border-top: 0rpx;
+}
+
+.m-info .m-chevron {
+  float: right;
+  margin-left: 30rpx;
+}
+
+.m-info .m-chevron .chevron {
+  width: 16rpx;
+  height: 26rpx;
+  vertical-align: middle;
+}
+
+.author {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #888;
+  font-size: 20rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.author image {
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 auto;
+  margin-bottom: 10rpx;
+}
+
+.author text {
+  display: block;
+  line-height: 28rpx;
+}

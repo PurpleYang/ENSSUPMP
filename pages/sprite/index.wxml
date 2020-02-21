@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="m-sprite" data-id="{{sprite.id}}">
+    <image class="m-avatar" src="/img/sprites/{{sprite.name}}.png"></image>
+    <view class="m-info">
+      <view class="name">
+        <text>{{sprite.showname}}</text>
+      </view>
+      <view class="species">
+        <text class="m-type {{sprite.location}}" wx:key="unique">{{sprite.location}}</text>
+      </view>
+    </view>
+  </view>
+  <text class="ctntitle">支持合集</text>
+  <view class="baseInfo ctn">
+  <text class="m-type {{champions}}" wx:for="{{sprite.champions}}" wx:key="unique" wx:for-item="champions" wx:for-index="index">{{sprite.champions[index]}}</text>
+  </view>
+</view>
